@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body{
+     
+    font-family: "Playwrite MX Guides";
+    margin: 0;
+    background-size: cover;
+    backdrop-filter: blur(px); 
+    background-color: rgb(255, 181, 0);
+    background-repeat: no-repeat;
+    background-position: 0px -320px;
+    background-size: 1700px;
+}
+header{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+  
+    justify-content: space-between;
+}
+h1{
+    align-content: center;
+    text-align: center;
+    height: 100px;
+    color: black;
+}
+
+.Burger{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.menu div h2{
+    font-size: 34px
+}
+
+.menu img{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Potato_free{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px  black;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+.logo img{
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 40px
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.limonade{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px  black; 
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+.Burger img {
+    transition: transform 0.3s ease; /* Плавный переход при изменении */
+}
+
+.Burger:hover img {
+    transform: scale(1.2); /* Увеличение изображения при наведении */
+}
+
+.Potato_free img {
+    transition: transform 0.3s ease; /* Плавный переход при изменении */
+}
+
+.Potato_free:hover img {
+    transform: scale(1.2); /* Увеличение изображения при наведении */
+}
+
+.limonade img {
+    transition: transform 0.3s ease; /* Плавный переход при изменении */
+}
+
+.limonade:hover img {
+    transform: scale(1.2); /* Увеличение изображения при наведении */
+}
+
+.cburger img {
+    transition: transform 0.3s ease; /* Плавный переход при изменении */
+}
+
+.cburger:hover img {
+    transform: scale(1.2); /* Увеличение изображения при наведении */
+}
+
+
+@media screen and (max-width:888px){
+   
+    header h1{
+        font-family: "Creepster", serif;
+    }
+ 
+
+
+    header h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    main{
+        flex-direction: column;
+   }
+   header{
+    font-size: 12px;
+     display: flex;
+     align-items: center;
+}
+   #menu{
+     align-items: center;
+   }
+
+   .menu{
+
+    flex-direction: column;
+    gap: 50px;
+   }
+
+
+
+
+}
